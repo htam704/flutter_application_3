@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 
 class CustomCardTipo2 extends StatelessWidget {
-  const CustomCardTipo2({super.key});
+  final String imageUrl;
+
+  const CustomCardTipo2({super.key, required this.imageUrl});
 
   @override
   Widget build(BuildContext context) {
@@ -10,14 +12,15 @@ class CustomCardTipo2 extends StatelessWidget {
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
       child: Column(
         children: [
-          const FadeInImage(
-            image: NetworkImage('https://wallpapers.com/images/hd/hd-nature-background-dftck70xg2lujaxb.jpg'),
-            placeholder: AssetImage('assets/Loading_icon.gif'),
+          FadeInImage(
+            //image: NetworkImage('https://wallpapers.com/images/hd/hd-nature-background-dftck70xg2lujaxb.jpg'),
+            image: NetworkImage(imageUrl),
+            placeholder: const AssetImage('assets/Loading_icon.gif'),
             width: double.infinity, //coge todo el ancho posible
             height: 240, // rellena con espacio
             fit: BoxFit.cover, //rellena el espacio anterior cortando la imagen
             fadeInDuration:
-                Duration(milliseconds: 3000), //duracion fundido carga
+                const Duration(milliseconds: 3000), //duracion fundido carga
           ),
           Container(
               alignment: AlignmentDirectional.centerStart,
