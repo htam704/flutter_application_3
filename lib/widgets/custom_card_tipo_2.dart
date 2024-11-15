@@ -2,8 +2,9 @@ import 'package:flutter/material.dart';
 
 class CustomCardTipo2 extends StatelessWidget {
   final String imageUrl;
+  final String? nombre; // es opcional
 
-  const CustomCardTipo2({super.key, required this.imageUrl});
+  const CustomCardTipo2({super.key, required this.imageUrl, this.nombre});
 
   @override
   Widget build(BuildContext context) {
@@ -22,10 +23,13 @@ class CustomCardTipo2 extends StatelessWidget {
             fadeInDuration:
                 const Duration(milliseconds: 3000), //duracion fundido carga
           ),
+          if(nombre != null) // si es null, que no aparezca el container de abajo
           Container(
               alignment: AlignmentDirectional.centerStart,
               padding: const EdgeInsets.only(top: 10, bottom: 10, left: 15),
-              child: const Text('La Naturaleza del verde'))
+              //child: Text(nombre!)) // puede ser nulo (! => fíate que no será null)
+              child: Text(nombre ?? 'Desconocido') // el valor por defecto no mostrará error en caso de null
+          ) 
         ],
       ),
     );
