@@ -1,5 +1,3 @@
-import 'dart:ui_web';
-
 import 'package:flutter/material.dart';
 
 class CustomCardTipo2 extends StatelessWidget {
@@ -7,13 +5,14 @@ class CustomCardTipo2 extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Card(
+    return const Card(
       child: Column(
         children: [
-          Image(
+          FadeInImage(
             image: NetworkImage(
-                'https://wallpapers.com/images/hd/hd-nature-background-dftck70xg2lujaxb.jpg')
-            )
+                'https://wallpapers.com/images/hd/hd-nature-background-dftck70xg2lujaxb.jpg'),
+            placeholder: AssetImage('assets/Loading_icon.gif'),
+          )
         ],
       ),
     );
