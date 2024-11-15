@@ -15,7 +15,17 @@ class CardScreen extends StatelessWidget {
           children: const [
             CustomCardTipo1(),
             SizedBox(height: 10),
-            CustomCardTipo2()
+            CustomCardTipo2(),
+            SizedBox(height: 10),
+            CustomCardTipo2(),
+            SizedBox(height: 10),
+            CustomCardTipo2(),
+            SizedBox(height: 10),
+            CustomCardTipo2(),
+            SizedBox(height: 10),
+            CustomCardTipo2(),
+            SizedBox(height: 10),
+            CustomCardTipo2(),
           ],
         ));
   }
