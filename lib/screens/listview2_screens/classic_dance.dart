@@ -24,7 +24,7 @@ class ClassicDance extends StatelessWidget {
           // Widget para el título y la descripción
           TitleDescriptionWidget(
             title: 'Danza Clásica',
-            description: 'Descripción de la danza española, una danza llena de pasión y emoción.',
+            description: '"La danza clásica es la perfección que no se ve, la belleza que se siente."\n ~ Mikhail Baryshnikov, bailarín y coreógrafo ruso.\n\nLa danza clásica es la serenidad de la belleza que se desliza como un susurro en la calma. Cada movimiento, controlado y preciso, es un suspiro de gracia que fluye en una armonía eterna. Los bailarines, como ángeles suspendidos en el aire, nos cuentan historias con cada extensión, con cada pirueta que desafía la gravedad. Su lenguaje es uno de quietud y emoción contenida, donde la forma y la técnica se convierten en un reflejo de lo sublime, una danza que busca la perfección sin dejar de ser humana.',
           ),
         ],
       ),

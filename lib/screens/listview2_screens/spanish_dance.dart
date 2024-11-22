@@ -22,7 +22,7 @@ class SpanishDance extends StatelessWidget {
           ),
           TitleDescriptionWidget(
             title: 'Danza Española',
-            description: 'Descripción de la danza española, una danza llena de pasión y emoción.',
+            description: '"La danza española es el grito del alma que se expresa a través del cuerpo."\n ~ Antonio Gades, bailarín y coreógrafo español.\n\nLa danza española es el latido vibrante de una tierra cargada de historia y pasión. En cada giro, en cada zapateado, se desata la furia de un corazón que baila al compás del viento y del fuego. Con cada movimiento de las manos, como si fueran alas, se cuentan historias de amores, tristezas y victorias que trascienden el tiempo. La guitarra, el cante y el alma se funden en un abrazo indestructible, donde el cuerpo se convierte en lenguaje y la emoción en danza.',
           ),
         ],
       ),
