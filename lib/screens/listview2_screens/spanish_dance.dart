@@ -5,7 +5,15 @@ class SpanishDance extends StatelessWidget {
   
   @override
   Widget build(BuildContext context) {
-    // TODO: implement build
-    throw UnimplementedError();
+    return Scaffold(
+      body: const Center(
+        child: Text('Danza Española'),
+      ),
+      floatingActionButton: FloatingActionButton(
+        // botón que vuelve al inicio
+        child: const Icon(Icons.close),
+        onPressed: () => Navigator.pop(context),
+      ),
+    );
   }
 }

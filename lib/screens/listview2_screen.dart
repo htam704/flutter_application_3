@@ -1,13 +1,7 @@
+import 'package:flutter_application_3/routes/work_routes.dart';
 import 'package:flutter/material.dart';
 
 class Listview2Screen extends StatelessWidget {
-  final options = const [
-    'Danza Española',
-    'Clásico',
-    'Flamenco',
-    'Contemporáneo'
-  ];
-
   const Listview2Screen({super.key});
 
   @override
@@ -19,14 +13,13 @@ class Listview2Screen extends StatelessWidget {
         ),
         body: ListView.separated(
             itemBuilder: (context, index) => ListTile(
-                  trailing: const Icon(Icons.arrow_forward_ios_outlined),
-                  title: Text(options[index]),
-                  onTap: () {
-                    final casa = options[index];
-                    print(casa);
-                  },
-                ),
+                leading: Icon(WorkRoutes.MenuOptionsWorks[index].icon),
+                title: Text(WorkRoutes.MenuOptionsWorks[index].name),
+                onTap: () {
+                  Navigator.pushNamed(
+                      context, WorkRoutes.MenuOptionsWorks[index].route);
+                }),
             separatorBuilder: (context, index) => const Divider(),
-            itemCount: options.length));
+            itemCount: WorkRoutes.MenuOptionsWorks.length));
   }
 }
