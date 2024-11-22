@@ -23,7 +23,7 @@ class AppRoutes {
     MenuOption(
         route: 'listview2',
         icon: Icons.list,
-        name: 'Listview tipo 2',
+        name: 'Obras',
         screen: const Listview2Screen()),
     MenuOption(
         route: 'alert',
