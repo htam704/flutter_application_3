@@ -22,7 +22,8 @@ class FlamencoDance extends StatelessWidget {
           ),
           TitleDescriptionWidget(
             title: 'Flamenco',
-            description: '"El flamenco es un grito ahogado, una emoción que no cabe dentro del cuerpo."\n ~ Camarón de la Isla, cantaor español.\n\nEl flamenco es el alma desbordada de Andalucía, un grito lleno de dolor y libertad. En cada zapato que golpea el suelo, en cada mano que corta el aire, se libra una batalla interna que solo la música sabe traducir. El cuerpo, como un fuego, se enciende con el ritmo del compás, y la pasión fluye como un torrente imposible de detener. El flamenco es una danza que no pide permiso para ser escuchada: es un lamento que se convierte en canto y un canto que se convierte en grito. Es vida, es amor, es una explosión que sale del corazón.',
+            frase: '"El flamenco es un grito ahogado, una emoción que no cabe dentro del cuerpo."\n ~ Camarón de la Isla, cantaor español.',
+            description: 'El flamenco es el alma desbordada de Andalucía, un grito lleno de dolor y libertad. En cada zapato que golpea el suelo, en cada mano que corta el aire, se libra una batalla interna que solo la música sabe traducir. El cuerpo, como un fuego, se enciende con el ritmo del compás, y la pasión fluye como un torrente imposible de detener. El flamenco es una danza que no pide permiso para ser escuchada: es un lamento que se convierte en canto y un canto que se convierte en grito. Es vida, es amor, es una explosión que sale del corazón.',
           ),
         ],
       ),

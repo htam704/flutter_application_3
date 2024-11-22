@@ -22,7 +22,8 @@ class Contemporary extends StatelessWidget {
           ),
           TitleDescriptionWidget(
             title: 'Danza Contemporánea',
-            description: '"La danza contemporánea es la libertad de ser uno mismo, de dejarse llevar por la emoción sin límites."\n ~ Pina Bausch, coreógrafa y bailarina alemana.\n\nLa danza contemporánea es la búsqueda infinita de la esencia, una libertad sin fronteras donde cada movimiento es una exploración del alma. No hay reglas, solo el cuerpo que se libera de lo establecido, que busca en cada gesto una forma de conexión, una manera de comunicarse sin palabras. Los cuerpos se entrelazan y se separan, se caen y se levantan, todo sin temor, todo sin restricciones. Es un universo de emociones crudas y auténticas, donde cada danza cuenta una historia personal, y cada historia es única e irrepetible. Es el arte de la transformación, del cuerpo como instrumento de cambio.',
+            frase: '"La danza contemporánea es la libertad de ser uno mismo, de dejarse llevar por la emoción sin límites."\n ~ Pina Bausch, coreógrafa y bailarina alemana.',
+            description: 'La danza contemporánea es la búsqueda infinita de la esencia, una libertad sin fronteras donde cada movimiento es una exploración del alma. No hay reglas, solo el cuerpo que se libera de lo establecido, que busca en cada gesto una forma de conexión, una manera de comunicarse sin palabras. Los cuerpos se entrelazan y se separan, se caen y se levantan, todo sin temor, todo sin restricciones. Es un universo de emociones crudas y auténticas, donde cada danza cuenta una historia personal, y cada historia es única e irrepetible. Es el arte de la transformación, del cuerpo como instrumento de cambio.',
           ),
         ],
       ),
