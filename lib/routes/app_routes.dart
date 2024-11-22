@@ -1,10 +1,6 @@
 import 'package:flutter_application_3/models/models.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_application_3/screens/alert_screen.dart';
-import 'package:flutter_application_3/screens/card_screen.dart';
-import 'package:flutter_application_3/screens/home_screen.dart';
-import 'package:flutter_application_3/screens/listview1_screen.dart';
-import 'package:flutter_application_3/screens/listview2_screen.dart';
+import 'package:flutter_application_3/screens/screens.dart';
 
 class AppRoutes {
   static const initialRoute = 'home';
@@ -35,6 +31,29 @@ class AppRoutes {
         icon: Icons.card_giftcard,
         name: 'Cards (Tarjetas)',
         screen: const CardScreen()),
+  ];
+
+  static final MenuOptionsWorks = <MenuOption>[
+    MenuOption(
+        route: 'spanishdance',
+        icon: Icons.search,
+        name: 'Danza Española',
+        screen: const SpanishDance()),
+    MenuOption(
+        route: 'classicdance',
+        icon: Icons.search,
+        name: 'Danza Clásica',
+        screen: const ClassicDance()),
+    MenuOption(
+        route: 'flamencodance',
+        icon: Icons.search,
+        name: 'Danza Flamenca',
+        screen: const FlamencoDance()),
+    MenuOption(
+        route: 'contemporary',
+        icon: Icons.search,
+        name: 'Contemporáneo',
+        screen: const Contemporary()),
   ];
 
   static Map<String, Widget Function(BuildContext)> getAppRoutes() {

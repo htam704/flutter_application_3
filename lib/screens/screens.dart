@@ -3,3 +3,7 @@ export 'package:flutter_application_3/screens/card_screen.dart';
 export 'package:flutter_application_3/screens/home_screen.dart';
 export 'package:flutter_application_3/screens/listview1_screen.dart';
 export 'package:flutter_application_3/screens/listview2_screen.dart';
+export 'package:flutter_application_3/screens/listview2_screens/spanish_dance.dart';
+export 'package:flutter_application_3/screens/listview2_screens/classic_dance.dart';
+export 'package:flutter_application_3/screens/listview2_screens/flamenco_dance.dart';
+export 'package:flutter_application_3/screens/listview2_screens/contemporary.dart';
