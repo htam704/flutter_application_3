@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_3/widgets/image_widget.dart';
+import 'package:flutter_application_3/widgets/title_description_widget.dart';
 
 class ClassicDance extends StatelessWidget {
   const ClassicDance({super.key});
@@ -19,10 +20,16 @@ class ClassicDance extends StatelessWidget {
               imageUrl: 'https://www.teatroreal.es/sites/default/files/2019-02/1LagoCisnes_0.jpg',
             ),
           ),
+          
+          // Widget para el título y la descripción
+          TitleDescriptionWidget(
+            title: 'Danza Clásica',
+            description: 'Descripción de la danza española, una danza llena de pasión y emoción.',
+          ),
         ],
       ),
+      // Floating action button para regresar
       floatingActionButton: FloatingActionButton(
-        // botón que vuelve al inicio
         child: const Icon(Icons.close),
         onPressed: () => Navigator.pop(context),
       ),

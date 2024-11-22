@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_3/widgets/image_widget.dart';
+import 'package:flutter_application_3/widgets/title_description_widget.dart';
 
 class Contemporary extends StatelessWidget {
   const Contemporary({super.key});
@@ -18,6 +19,10 @@ class Contemporary extends StatelessWidget {
             child: ImageWidget(
               imageUrl: 'https://static.wikia.nocookie.net/fuzgt/images/d/d8/Seanandkaycee.jpeg/revision/latest?cb=20191030020321',
             ),
+          ),
+          TitleDescriptionWidget(
+            title: 'Danza Contemporánea',
+            description: 'Descripción de la danza española, una danza llena de pasión y emoción.',
           ),
         ],
       ),

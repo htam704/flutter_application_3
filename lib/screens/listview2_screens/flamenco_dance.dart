@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_application_3/widgets/image_widget.dart';
+import 'package:flutter_application_3/widgets/title_description_widget.dart';
 
 class FlamencoDance extends StatelessWidget {
   const FlamencoDance({super.key});
@@ -18,6 +19,10 @@ class FlamencoDance extends StatelessWidget {
             child: ImageWidget(
               imageUrl: 'https://www.escueladeflamencodeandalucia.es/wp-content/uploads/2023/10/flamenco-1.jpg',
             ),
+          ),
+          TitleDescriptionWidget(
+            title: 'Flamenco',
+            description: 'Descripción de la danza española, una danza llena de pasión y emoción.',
           ),
         ],
       ),
